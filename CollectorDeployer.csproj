@@ -16,7 +16,7 @@
 		<PackageId>CollectorDeployer</PackageId>
 		<BepInExPluginGuid>com.yummi.dsp.collectordeployer</BepInExPluginGuid>
 		<Description>One click on a gas giant deploys 40 orbital collectors evenly on the equator grid | 气态巨星上一键在赤道格点均匀部署 40 个轨道采集器</Description>
-		<Version>1.2.0</Version>
+		<Version>1.2.1</Version>
 		<Authors>cat-yummi</Authors>
 		<LangVersion>latest</LangVersion>
 	</PropertyGroup>
@@ -33,7 +33,7 @@
 		<PackageReference Include="UnityEngine.Modules" Version="2022.3.53" IncludeAssets="compile" />
 		<PackageReference Include="DysonSphereProgram.GameLibs" Version="*-*" />
 		<!-- Safe-injection prerequisite mod | 安全注入前置 mod -->
-		<ProjectReference Include="..\YummiHarness\plugin\YummiHarness.csproj" Private="false" />
+		<ProjectReference Include="..\CatAPI\plugin\CatAPI.csproj" Private="false" />
 	</ItemGroup>
 	<PropertyGroup>
 		<ProfileDir Condition=" '$(ProfileDir)' == '' ">$(APPDATA)\r2modmanPlus-local\DysonSphereProgram\profiles\Default</ProfileDir>

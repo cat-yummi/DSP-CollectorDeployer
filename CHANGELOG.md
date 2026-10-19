@@ -1,8 +1,12 @@
 # Changelog
 
+## 1.2.1 - 2026-10-19
+
+- Thunderstore dependency **cat_yummi-CatAPI-0.2.4** (YummiHarness → CatAPI rename).
+
 ## 1.2.0
 
-- **YummiHarness**: `Harness.PatchAll` + `[Guard]` on patches; Thunderstore dependency `cat_yummi-YummiHarness`.
+- **CatAPI**: `Harness.PatchAll` + `[Guard]` on patches; Thunderstore dependency `cat_yummi-CatAPI`.
 
 ## 1.1.1
 
@@ -25,7 +29,7 @@
 
 ## 1.2.0
 
-- **YummiHarness**：使用 `Harness.PatchAll` 与 `[Guard]` 指纹校验；Thunderstore 依赖 `cat_yummi-YummiHarness`。
+- **CatAPI**：使用 `Harness.PatchAll` 与 `[Guard]` 指纹校验；Thunderstore 依赖 `cat_yummi-CatAPI`。
 
 ## 1.1.1
 
